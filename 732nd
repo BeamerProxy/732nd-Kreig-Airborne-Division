@@ -1,6 +1,6 @@
 {
   "name": "732nd Krieg Airborne Division",
-  "revision": "0.0.1",
+  "revision": "0.0.2",
   "game": "Beamer's Homebrew",
   "genre": "sci-fi",
   "publisher": "Beamerproxy",
@@ -42,7 +42,15 @@
               }
             },
             "Melee Weapon§Valkyrie—Armoured hull",
-            "Ability§Streamlined Transport"
+            "Ability§Streamlined Transport",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
