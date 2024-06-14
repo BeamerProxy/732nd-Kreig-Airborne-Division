@@ -1,0 +1,153 @@
+{
+  "name": "732nd Krieg Airborne Division",
+  "revision": "0.0.1",
+  "game": "Beamer's Homebrew",
+  "genre": "sci-fi",
+  "publisher": "Beamerproxy",
+  "url": "",
+  "notes": "",
+  "wip": true,
+  "dependencies": [
+    {
+      "slug": "6G3YSE",
+      "name": "Astra Militarum",
+      "game": "Warhammer 40k",
+      "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k10e/main/Astra_Militarum.rulebook"
+    }
+  ],
+  "rulebook": {
+    "assetTaxonomy": {},
+    "assetCatalog": {
+      "Ability§Streamlined Transport": {
+        "text": "This model has a transport capacity of 22 Astra Militarum Infantry models. It cannot transport Artillery, Heavy Weapons, Veteran Heavy Weapons, or Ogryn models."
+      },
+      "Character§Aquilan Striker": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            },
+            "Ability§Hover",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-5 wounds remaining"
+                }
+              }
+            },
+            "Melee Weapon§Valkyrie—Armoured hull",
+            "Ability§Streamlined Transport"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Astra Militarum"
+          ],
+          "Source": [
+            "10th Edition Index"
+          ],
+          "Keywords": [
+            "Aircraft",
+            "Character",
+            "Fly",
+            "Imperium",
+            "Transport",
+            "Valkyrie",
+            "Vehicle"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 7
+          },
+          "M": {
+            "statType": "term",
+            "value": "20+"
+          },
+          "maxQty": {
+            "value": 1
+          },
+          "Nose Weapon": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Militarum multi-laser": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Valkyrie—Militarum multi-laser"
+                  }
+                ]
+              },
+              "Lascannon": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Valkyrie—Lascannon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Militarum multi-laser",
+            "visibility": "active"
+          },
+          "OC": {
+            "value": 0
+          },
+          "Points": {
+            "value": 200
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 10
+          },
+          "W": {
+            "value": 12
+          },
+          "Wing Weapons": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Hellstrike missiles": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Valkyrie—Hellstrike missiles"
+                  }
+                ]
+              },
+              "Multiple rocket pod": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Valkyrie—Multiple rocket pod"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Hellstrike missiles",
+            "visibility": "active"
+          }
+        }
+      },
+      "Roster§Roster": {}
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}
